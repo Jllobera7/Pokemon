@@ -12,17 +12,17 @@ public class DatabaseConnection {
 	 
 	 
 	 
-	 public static añadirEntrenador() {
+	 public static void añadirEntrenador() {
 		 
 		 
 		 
 		 
 		 
 	 }
-		 listar entrenadores (mostrar)
+		/* listar entrenadores (mostrar)
 			añadirentrenador
 			listar equipos (mostrar)
-			añadirpokemon
+			añadirpokemon*/
 		
 	
 	
