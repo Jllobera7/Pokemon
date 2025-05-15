@@ -84,6 +84,72 @@ public class Pokemon {
 
 
 
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+
+
+	public void setTipo1(String tipo1) {
+		this.tipo1 = tipo1;
+	}
+
+
+
+	public void setTipo2(String tipo2) {
+		this.tipo2 = tipo2;
+	}
+
+
+
+	public void setAltura(double altura) {
+		this.altura = altura;
+	}
+
+
+
+	public void setPeso(int peso) {
+		this.peso = peso;
+	}
+
+
+
+	public void setHp(int hp) {
+		this.hp = hp;
+	}
+
+
+
+	public void setAtaque(int ataque) {
+		this.ataque = ataque;
+	}
+
+
+
+	public void setDefensa(int defensa) {
+		this.defensa = defensa;
+	}
+
+
+
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+
+
+
+	public void setImagen(String imagen) {
+		this.imagen = imagen;
+	}
+
+
+
 
 	
 }

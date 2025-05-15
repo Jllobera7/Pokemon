@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Crear Entrenador</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>Crear Entrenador</h1>
+
+    <div style="display: flex;">
+        <!-- Formulario a la izquierda -->
+        <div style="flex: 1;">
+            <form method="POST" action="guardarEntrenador">
+                Nombre: <input type="text" name="nombre" required><br><br>
+                <input type="submit" value="Continuar">
+            </form>
+        </div>
+
+        <!-- Carrusel de pokémon a la derecha -->
+        <div style="flex: 1;">
+            <h2>Mini Pokédex</h2>
+            <div id="pokedex"></div>
+        </div>
+    </div>
+
+    <script>
+        // Usamos JS solo para insertar el HTML del servlet (sin usar JSON ni procesarlo)
+        fetch('pokemons-html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('pokedex').innerHTML = html;
+            });
+    </script>
+</body>
+</html>
