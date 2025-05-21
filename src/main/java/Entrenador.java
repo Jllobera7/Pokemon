@@ -11,6 +11,32 @@ public class Entrenador {
 	
 	private static int contador=0;
 
+	//Constructores
+	
+	public Entrenador() {
+		setContador();
+		this.idEntrenador = contador;
+		this.nombre = "";
+		this.edad = 0;
+		this.region = "";
+		this.descripcion = "";
+		this.pokemons = new ArrayList<Pokemon>();
+	}
+	
+	
+	public Entrenador(String nombre, int edad, String region, String descripcion) {
+		setContador();
+		this.idEntrenador = contador;
+		this.nombre = nombre;
+		this.edad = edad;
+		this.region = region;
+		this.descripcion = descripcion;
+		this.pokemons = new ArrayList<Pokemon>();
+	}
+	
+	
+	
+	
 	
 	//Getters y Setters
   
